@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  background: hsl(212, 45%, 89%);
+  display: flex; /* Ativa o flexbox no body */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa 100% da altura da tela */
+  margin: 0; /* Remove margens padrão */
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  width: 100%; /* Flexível, ocupa 100% da largura disponível */
+  max-width: 200px;
+  border-radius: 8px;
+  padding: 4px, 0;
+}
+
+img {
+  margin: 8px;
+  max-width: 180px;
+  border-radius: 6px;
+  display: block;
+}
+
+h1,
+p {
+  width: 88%; /* Largura do texto reduzida */
+  text-align: center;
+  margin: 0 auto; /* Centraliza o texto dentro da caixa */
+}
+
+h1 {
+  font-size: 15px;
+  font-family: "outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+  text-align: center; /* Centraliza o texto */
+}
+
+p {
+  font-size: 10px;
+  font-family: "outfit", sans-serif;
+  color: hsl(216, 15%, 48%);
+  margin: 12px;
+  text-align: center;
+}
