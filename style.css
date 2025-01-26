@@ -1,49 +1,49 @@
 body {
   width: 100%;
-  background: hsl(212, 45%, 89%);
-  display: flex; /* Ativa o flexbox no body */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Ocupa 100% da altura da tela */
-  margin: 0; /* Remove margens padrão */
+  background: hsl(212, 45%, 89%); /* Set background color using HSL */
+  display: flex; /* Activates flexbox on the body */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Occupies 100% of the viewport height */
+  margin: 0; /* Removes default margin */
 }
 
 .main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background: #fff;
-  width: 100%; /* Flexível, ocupa 100% da largura disponível */
-  max-width: 200px;
-  border-radius: 8px;
-  padding: 4px, 0;
+  display: flex; /* Activates flexbox inside the main container */
+  align-items: center; /* Centers items vertically within the container */
+  flex-direction: column; /* Aligns child elements in a column */
+  background: #fff; /* Set background color to white */
+  width: 100%; /* Flexible, takes up 100% of available width */
+  max-width: 200px; /* Restricts the maximum width to 200px */
+  border-radius: 8px; /* Rounds the corners of the container */
+  padding: 4px, 0; /* Adds padding inside the container */
 }
 
 img {
-  margin: 8px;
-  max-width: 180px;
-  border-radius: 6px;
-  display: block;
+  margin: 8px; /* Adds margin around the image */
+  max-width: 180px; /* Limits the maximum width of the image */
+  border-radius: 6px; /* Rounds the corners of the image */
+  display: block; /* Removes inline-block spacing and forces the image to behave like a block element */
 }
 
 h1,
 p {
-  width: 88%; /* Largura do texto reduzida */
-  text-align: center;
-  margin: 0 auto; /* Centraliza o texto dentro da caixa */
+  width: 88%; /* Sets the width of the text container to 88% of the parent */
+  text-align: center; /* Centers the text inside the container */
+  margin: 0 auto; /* Centers the text block horizontally */
 }
 
 h1 {
-  font-size: 15px;
-  font-family: "outfit", sans-serif;
-  color: hsl(218, 44%, 22%);
-  text-align: center; /* Centraliza o texto */
+  font-size: 15px; /* Sets font size for the title */
+  font-family: "outfit", sans-serif; /* Specifies the font family for the title */
+  color: hsl(218, 44%, 22%); /* Sets the title text color using HSL */
+  text-align: center; /* Centers the title text */
 }
 
 p {
-  font-size: 10px;
-  font-family: "outfit", sans-serif;
-  color: hsl(216, 15%, 48%);
-  margin: 12px;
-  text-align: center;
+  font-size: 10px; /* Sets font size for the paragraph */
+  font-family: "outfit", sans-serif; /* Specifies the font family for the paragraph */
+  color: hsl(216, 15%, 48%); /* Sets the paragraph text color using HSL */
+  margin: 12px; /* Adds margin around the paragraph */
+  text-align: center; /* Centers the paragraph text */
 }
