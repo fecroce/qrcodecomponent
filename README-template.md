@@ -19,9 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-This project is a solution for the QR Code Component challenge from Frontend Mentor. I already had a clear idea of how to structure and implement everything, which allowed me to complete it in a relatively short time. This made me very happy, as it showed how much I've progressed in understanding HTML and CSS.
-
-The main goal of the project was to practice building a small, visually accurate component while maintaining clean and semantic code. I'm satisfied with the result and the process, as it reflects the importance of planning before coding.
+This project marks my very first Frontend challenge on Frontend Mentor and is one of the first projects I’ve completed entirely on my own.
 
 ### Screenshot
 
@@ -34,68 +32,51 @@ The main goal of the project was to practice building a small, visually accurate
 
 ## My process
 
+### 1. **Downloading and Analyzing the Files**
+
+I started by downloading the files provided by Frontend Mentor. Then, I opened and carefully analyzed each folder to understand the structure and resources available.
+
+### 2. **Working with HTML**
+
+Since the HTML was already provided, I began by reviewing it and adding the appropriate classes. I structured the components based on the elements I observed in the example design.
+
+### 3. **Styling with CSS**
+
+After setting up the HTML, I moved on to CSS. My focus was on creating a harmonious design that closely resembled the example provided. I worked to style the components in a way that made the layout cohesive and visually appealing.
+
+### 4. **Adding the Font**
+
+Finally, I added the required font specified in the challenge, ensuring that it matched the design guidelines.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+HTML5 Semantic Markup – To ensure proper structure and accessibility.
+CSS3 – For styling and layout.
+Google Fonts – Used the Outfit font family for typography.
+Frontend Mentor Starter Files – Resources and guidelines provided by Frontend Mentor to structure the project.
+Flexbox
+Box Model
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Flexbox for Layouts:
+I improved my understanding of how to use Flexbox to center elements both horizontally and vertically, as well as how to align and structure elements in a column.
 
-To see how you can add code snippets, see below:
+HSL for Colors:
+Experimenting with HSL color values allowed me to see how hue, saturation, and lightness work together to create a harmonious color scheme.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Responsive Design Basics:
+By using relative units like % and vh, I ensured that the layout adapts well to different screen sizes.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I plan to keep improving my responsive design skills, focusing on advanced techniques like media queries and fluid typography. I also want to refine my CSS practices, exploring methods like BEM for better organization. As I move forward, I’d love to incorporate more interactivity with JavaScript and dive deeper into web accessibility to make my projects more inclusive. I’m excited to explore new CSS features and frameworks to create even more dynamic and polished designs.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I found the W3Schools Documentation really helpful for quickly looking up syntax and best practices for HTML and CSS. Also GitHub and Frontend Mentor discord group helped me a lot.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Name - [Fernanda]
+- Frontend Mentor - [@fecroce](https://www.frontendmentor.io/profile/fecroce)
