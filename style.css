@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 /* Container for the whole page */
 .container {
   width: 100%; /* Full width of the viewport */
@@ -7,7 +13,6 @@
   align-items: center; /* Centers content vertically */
   height: 100vh; /* Occupies the full height of the viewport */
   min-height: 812px; /* Minimum height of the container (for mobile responsiveness) */
-  margin: 0; /* Removes any default margin */
 }
 
 /* Card container inside the main container */
@@ -18,10 +23,11 @@
   background: #fff; /* Sets background color to white */
   width: 100%; /* Makes the card take 100% width of its container */
   max-width: 320px; /* Limits the maximum width of the card */
-  height: 500px; /* Sets the height of the card */
+  height: 492px; /* Sets the height of the card */
   margin: auto;
   padding: 1rem 1rem 2rem; /* Adds padding inside the card */
   border-radius: 1.5rem; /* Rounds the corners of the card */
+  box-sizing: border-box;
 }
 
 /* Content inside the card */
@@ -34,6 +40,7 @@
 /* Styling for the image inside the card */
 .card img {
   max-width: 100%;
+  width: 288px;
   border-radius: 1rem; /* Rounds the corners of the image */
   margin-bottom: 2rem; /* Adds space below the image */
 }
@@ -57,4 +64,43 @@
   letter-spacing: 0.02rem; /* Adds slight space between letters */
   padding: 0;
   margin: 0; /* Removes any default margin */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+  .card {
+    height: auto; /* Let the card expand to fit content */
+    padding: 1.2rem; /* Adjust padding for smaller screens */
+  }
+
+  .card-content h1 {
+    font-size: 1.4rem; /* Reduce font size */
+    padding: 0 1rem; /* Reduce padding */
+  }
+
+  .card-content p {
+    font-size: 1rem; /* Adjust font size */
+    padding: 0 1rem; /* Reduce padding */
+  }
+
+  .card img {
+    width: 100%; /* Ensure image scales well */
+    max-width: 280px; /* Limit image size */
+  }
+}
+
+/* Media Query for Extra Small Screens */
+@media (max-width: 400px) {
+  .card {
+    max-width: 100%; /* Use full screen width */
+    padding: 1rem; /* Decrease padding further */
+  }
+
+  .card-content h1 {
+    font-size: 1.2rem; /* Make the heading smaller */
+  }
+
+  .card-content p {
+    font-size: 0.9rem; /* Adjust paragraph text */
+  }
 }

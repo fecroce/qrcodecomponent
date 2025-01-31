@@ -23,7 +23,7 @@ This project marks my very first Frontend challenge on Frontend Mentor and is on
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot1.png)
 
 ### Links
 
@@ -55,7 +55,6 @@ CSS3 – For styling and layout.
 Google Fonts – Used the Outfit font family for typography.
 Frontend Mentor Starter Files – Resources and guidelines provided by Frontend Mentor to structure the project.
 Flexbox
-Box Model
 
 ### What I learned
 
@@ -70,7 +69,7 @@ By using relative units like % and vh, I ensured that the layout adapts well to 
 
 ### Continued development
 
-I plan to keep improving my responsive design skills, focusing on advanced techniques like media queries and fluid typography. I also want to refine my CSS practices, exploring methods like BEM for better organization. As I move forward, I’d love to incorporate more interactivity with JavaScript and dive deeper into web accessibility to make my projects more inclusive. I’m excited to explore new CSS features and frameworks to create even more dynamic and polished designs.
+I plan to keep improving my responsive design skills, focusing on advanced techniques like media queries and fluid typography. I also want to refine my CSS practices, exploring methods like BEM for better organization. As I move forward, I’d love to incorporate more interactivity with JavaScript and dive deeper into web accessibility. I’m excited to explore new CSS features and frameworks to create even more dynamic and polished designs.
 
 ### Useful resources
 
