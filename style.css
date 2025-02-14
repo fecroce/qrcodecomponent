@@ -1,19 +1,23 @@
-body {
-  margin: 0px;
-  padding: 0px;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-/* Container for the whole page */
-.container {
-  width: 100%; /* Full width of the viewport */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
   background: hsl(212, 45%, 89%); /* Background color using HSL */
   display: flex; /* Activates flexbox layout for the container */
   justify-content: center; /* Centers content horizontally */
   align-items: center; /* Centers content vertically */
   height: 100vh; /* Occupies the full height of the viewport */
-  min-height: 812px; /* Minimum height of the container (for mobile responsiveness) */
+  min-height: 100svh; /* Minimum height of the container (for mobile responsiveness) */
 }
+
+/* Container for the whole page */
 
 /* Card container inside the main container */
 .card {
@@ -21,10 +25,6 @@ body {
   align-items: center; /* Vertically centers content within the card */
   flex-direction: column; /* Aligns children (image, title, paragraph) in a column */
   background: #fff; /* Sets background color to white */
-  width: 100%; /* Makes the card take 100% width of its container */
-  max-width: 320px; /* Limits the maximum width of the card */
-  height: 492px; /* Sets the height of the card */
-  margin: auto;
   padding: 1rem 1rem 2rem; /* Adds padding inside the card */
   border-radius: 1.5rem; /* Rounds the corners of the card */
   box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
 
 /* Content inside the card */
 .card-content {
-  width: 288px; /* Specifies width for the content inside the card */
+  width: 20rem; /* Specifies width for the content inside the card */
   height: 130px; /* Specifies height for the content inside the card */
   text-align: center; /* Centers text inside the content */
 }
@@ -40,14 +40,15 @@ body {
 /* Styling for the image inside the card */
 .card img {
   max-width: 100%;
+  display: block;
+  height: auto;
   width: 288px;
   border-radius: 1rem; /* Rounds the corners of the image */
   margin-bottom: 2rem; /* Adds space below the image */
 }
 
 /* Styling for the h1 element inside the card */
-.card-content h1 {
-  font-family: "Outfit", sans-serif; /* Specifies the font family for the title */
+.card-content h2 {
   color: hsl(218, 44%, 22%); /* Sets the title text color using HSL */
   font-size: 1.5rem; /* Sets the font size of the title */
   font-weight: 700; /* Makes the title bold */
@@ -59,48 +60,8 @@ body {
 /* Styling for the paragraph element inside the card */
 .card-content p {
   font-size: 1rem; /* Sets font size for the paragraph */
-  font-family: "Outfit", sans-serif; /* Specifies the font family for the paragraph */
   color: hsl(216, 15%, 48%); /* Sets the paragraph text color using HSL */
   letter-spacing: 0.02rem; /* Adds slight space between letters */
   padding: 0;
   margin: 0; /* Removes any default margin */
-}
-
-/* Media Query for Small Screens */
-@media (max-width: 600px) {
-  .card {
-    height: auto; /* Let the card expand to fit content */
-    padding: 1.2rem; /* Adjust padding for smaller screens */
-  }
-
-  .card-content h1 {
-    font-size: 1.4rem; /* Reduce font size */
-    padding: 0 1rem; /* Reduce padding */
-  }
-
-  .card-content p {
-    font-size: 1rem; /* Adjust font size */
-    padding: 0 1rem; /* Reduce padding */
-  }
-
-  .card img {
-    width: 100%; /* Ensure image scales well */
-    max-width: 280px; /* Limit image size */
-  }
-}
-
-/* Media Query for Extra Small Screens */
-@media (max-width: 400px) {
-  .card {
-    max-width: 100%; /* Use full screen width */
-    padding: 1rem; /* Decrease padding further */
-  }
-
-  .card-content h1 {
-    font-size: 1.2rem; /* Make the heading smaller */
-  }
-
-  .card-content p {
-    font-size: 0.9rem; /* Adjust paragraph text */
-  }
 }
